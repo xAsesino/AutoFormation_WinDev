@@ -1,0 +1,14 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Commande		TAR	59	nouvelle taille enregistrement : 59
+Commande	IDClient	RUB+		IDClient est une nouvelle clé
+Commande	IDModeRéglement	RUB+		IDModeRéglement est une nouvelle clé
+ModeRéglement		TAR	32	nouvelle taille enregistrement : 32
+ModeRéglement		IDE+*		fichier avec identifiant
+ModeRéglement	IDModeRéglement	RUB+		IDModeRéglement est une nouvelle clé
+Produit		NFI		nouveau fichier
+LigneCommande		NFI		nouveau fichier
+Contrainte_Client_Commande		NWL	Client (IDClient) et Commande (IDClient)	Nouvelle liaison entre les fichiers Client (IDClient) et Commande (IDClient)
+Contrainte_ModeRéglement_Commande		NWL	ModeRéglement (IDModeRéglement) et Commande (IDModeRéglement)	Nouvelle liaison entre les fichiers ModeRéglement (IDModeRéglement) et Commande (IDModeRéglement)
+Contrainte_Produit_Commande		NWL	Produit (IDProduit) et LigneCommande (IDProduit)	Nouvelle liaison entre les fichiers Produit (IDProduit) et LigneCommande (IDProduit)
+Contrainte_Commande_Produit		NWL	Commande (IDCommande) et LigneCommande (IDCommande)	Nouvelle liaison entre les fichiers Commande (IDCommande) et LigneCommande (IDCommande)
+LigneCommande		FRN		

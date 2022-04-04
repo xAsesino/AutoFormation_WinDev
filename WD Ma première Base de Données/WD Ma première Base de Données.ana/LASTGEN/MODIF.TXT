@@ -1,0 +1,12 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Client		NFI		nouveau fichier
+Commande		NFI		nouveau fichier
+ModeRéglement		NFI		nouveau fichier
+Client	IDClient	RRN		
+Client	Société	RRN		
+Client	Nom	RRN		
+Client	Prénom	RRN		
+Client	Téléphone	RRN		
+Client	Mobile	RRN		
+Client	Email	RRN		
+Commande	Etat	RRN		

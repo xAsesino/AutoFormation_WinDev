@@ -1,0 +1,6 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Compte		NFI		nouveau fichier
+Personnage		NFI		nouveau fichier
+Race		NFI		nouveau fichier
+Contrainte_Compte_Personnage		NWL	Compte (IDCompte) et Personnage (IDCompte)	Nouvelle liaison entre les fichiers Compte (IDCompte) et Personnage (IDCompte)
+Contrainte_Personnage_Race		NWL	Personnage (IDPersonnage) et Race (IDPersonnage)	Nouvelle liaison entre les fichiers Personnage (IDPersonnage) et Race (IDPersonnage)
